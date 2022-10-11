@@ -27,7 +27,6 @@ Constraints:
 
 Solve:-
 
-
 class Solution {
     public boolean increasingTriplet(int[] nums) {
         int first = Integer.MAX_VALUE;
@@ -38,8 +37,9 @@ class Solution {
         first = num;
       else if (num <= second)
         second = num;
+         else
         return true;
 
-    return false; 
+     return false; 
     }
 }
